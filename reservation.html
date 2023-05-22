@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Titre de la page</title>
+    <link rel="stylesheet" href="reservation.css">
+    <script src="MainPage.js" defer></script>
+</head>
+
+<header>
+    <a href="about.html" class="info" role="button">A propos de nous</a>
+    <a href="admin.php" class="info" role="button">Connection</a>
+    <a href="engagement.html" class="info" role="button">Nos engagements</a>
+    <a href="carte.html" class="info" role="button">Notre carte</a>
+    <a href="reservation.html" class="info" role="button">Réservation</a>
+    <a href="accueil.html" class="info" role="button">Accueil</a>
+</header>
+
+<body>
+    <div class="reservation">
+        <form class="content">
+            <h2 class="h2-1">Réservation</h2>
+            <nav class="form-row">
+                <select class="check" name="days" id="">
+                    <option value="day-select">Jour</option>
+                    <option value="Lundi">Lundi</option>
+                    <option value="Mardi">Mardi</option>
+                    <option value="Mercredi">Mercredi</option>
+                    <option value="Jeudi">Jeudi</option>
+                    <option value="Vendredi">Vendredi</option>
+                    <option value="Samedi">Samedi</option>
+                </select>
+                <select class="check" name="month" id="">
+                    <option value="month-select">Mois</option>
+                    <option value="Janvier">Janvier</option>
+                    <option value="Février">Février</option>
+                    <option value="Mars">Mars</option>
+                    <option value="Avril">Avril</option>
+                    <option value="Mai">Mai</option>
+                    <option value="Juin">Juin</option>
+                    <option value="Juillet">Juillet</option>
+                    <option value="Aout">Aout</option>
+                    <option value="Septembre">Septembre</option>
+                    <option value="Octobre">Octobre</option>
+                    <option value="Novembre">Novembre</option>
+                    <option value="Décembre">Décembre</option>
+                </select>
+                <select class="check" name="hour" id="">
+                    <option value="hour-select">Midi</option>
+                    <option value="11h45">11h45</option>
+                    <option value="12h15">12h15</option>
+                    <option value="12h45">12h45</option>
+                    <option value="13h15">13h15</option>
+                    <option value="13h45">13h45</option>
+                    <option value="14h15">14h15</option>
+                </select>
+                <select class="check" name="hour" id="">
+                    <option value="hour-select">Soir</option>
+                    <option value="18h45">18h45</option>
+                    <option value="19h15">19h15</option>
+                    <option value="19h45">19h45</option>
+                    <option value="20h15">20h15</option>
+                    <option value="20h45">20h45</option>
+                    <option value="21h15">21h15</option>
+                    <option value="21h45">21h45</option>
+                    <option value="22h15">22h15</option>
+                    <option value="22h45">22h45</option>
+                </select>
+                <select class="check" name="person" id="">
+                    <option value="person-select">Nombre de personne</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+                <input class="check-2" type="text" placeholder="Nom">
+                <input class="check-2" type="text" placeholder="Prénom">
+                <button type="button" class="button" role="button">Réserver</button>
+            </nav>
+        </form>
+    </div>
+
+    <footer>
+        <p>Note : Tout retard de plus de 20min après l'heure de réservation <br>
+            entraînera une interdiction de pénétrer dans le restaurant</p>
+    </footer>
+</body>

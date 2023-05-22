@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'Custom';
+    src: url(fonts/BelieveIt-DvLE.ttf);
+}
+
+header {
+    border-bottom: solid black 2px;
+    width: 100%;
+    height: 110px;
+    margin: 0 12px;
+    font-size: 20px;
+    background-image: url('image/header.png');
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: left center;
+
+}
+
+.info {
+    background-color: gainsboro;
+    right: 0;
+    float: right;
+    margin: 25px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    background-color: transparent;
+    backdrop-filter: blur(15px);
+    border: solid gray 2px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    background-color: saddlebrown !important;
+}
+
+body img {
+    width: 100%;
+    margin: 20px auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+li {
+    font-size: 20px;
+    
+}
+
+.content {
+    display: flex;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    margin: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.title {
+    display: block;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-family: Custom;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-right: solid gray 2px;
+    
+}
+
+.content-left {
+    display: block;
+    text-align: left;
+    margin: 20px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: circle;
+}
+
+@media only screen and (max-width: 640px) {
+
+    header {
+            background-size: 80%;
+        }
+    
+        body {
+            background-size: cover;
+            object-fit: cover;
+            flex-wrap: wrap;
+        }
+
+        body img {
+            transform: translateY(200px);
+        }
+    
+        .info {
+            display: block;
+            width: 90%;
+            margin: 10px;
+            text-align: center;
+            object-fit: cover;
+            transform: translateY(150px);
+        }
+
+        .title {
+            font-size: 40px;
+        }
+
+        .content {
+            transform: translateY(200px);
+        }
+
+}
