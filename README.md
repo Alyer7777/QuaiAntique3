@@ -1,18 +1,5 @@
 # QuaiAntique3
 
-Logiciels utilisés : 
+Méthode utilisée pour le localhost : 
 
-- WAMP
-- Microsoft Egde
-- VSCode
-
-Language utilisés : 
-
-- HTML/CSS
-- PHP
-
-Plateforme utilisées : 
-
-- MariaDB ( v10.6.11 )
-- Mysql ( v8.0.31 )
-- PHP ( v8.2.0 )
+J'ai utilisé le logiciel WAMP puis j'ai mis mon dossier "ECF" dans le répertoire de WAMP ( C:\wamp64\www )
